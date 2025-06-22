@@ -24,7 +24,7 @@ app.use(cookieParser());
 const corsOptions = {
   origin: [
     'http://localhost:3000', 
-    'https://tech-tutor-bhawani-shankar.vercel.app',
+    'https://tech-tutor-virid.vercel.app',
     'https://tech-tutor-black.vercel.app',
   ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
