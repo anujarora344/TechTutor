@@ -24,8 +24,7 @@ app.use(cookieParser());
 const corsOptions = {
   origin: [
     'http://localhost:3000', 
-    'https://tech-tutor-virid.vercel.app',
-    'https://tech-tutor-black.vercel.app',
+    'https://tech-tutor-virid.vercel.app'
   ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true // If you're using cookies or authentication
